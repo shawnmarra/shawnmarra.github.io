@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Stories</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header{
+      height: 15vh;
+      background-color: red;
+    }
+
+    .links{
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+    }
+
+    .sidebar {
+      background-color: green;
+      width: 15vw;
+    }
+
+    .button{
+      align-self: center;
+    }
+
+    .content{
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer{
+      height: 15vh;
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="links">
+      <div class="link">Link 1</div>
+      <div class="link">Link 2</div>
+      <div class="link">Link 3</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="sidebar left"></div>
+    <button class="button">Reverse!</button>
+    <div class="sidebar right"></div>
+  </div>
+  
+  
+  <div class="footer"></div>
+
+
+
+
+
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>
